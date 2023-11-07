@@ -1,0 +1,21 @@
+{
+  "cmds": {
+    "about": {
+      "description": "A bit about me",
+      "content": "My name is Unai Medina and I am a Junior Developer. Here, you can find information about my work and my skills",
+      "type": "text"
+    },
+    "github": {
+      "description": "Provide personal github link",
+      "content": "github.com/unaimedina",
+      "type": "link",
+      "target": "https://github.com/unaimedina"
+    },
+    "twitter": {
+      "description": "Provide personal twitter link",
+      "content": "@unnaaiimedina",
+      "type": "link",
+      "target": "https://twitter.com/unnaaiimedina"
+    }
+  }
+}

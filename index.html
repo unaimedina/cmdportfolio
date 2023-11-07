@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unai.lol</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<div id="terminal">
+    <!-- Make linux terminal -->
+    <div id="top-bar">
+        <div id="title">Linux Shell</div>
+        <div id="circles">
+            <div class="circle" id="close-circle"></div>
+            <div class="circle" id="minimize-circle"></div>
+            <div class="circle" id="maximize-circle"></div>
+        </div>
+    </div>
+    <div id="output">
+        <pre>
+███    █▄  ███▄▄▄▄      ▄████████  ▄█   ▄█        ▄██████▄   ▄█
+███    ███ ███▀▀▀██▄   ███    ███ ███  ███       ███    ███ ███
+███    ███ ███   ███   ███    ███ ███▌ ███       ███    ███ ███
+███    ███ ███   ███   ███    ███ ███▌ ███       ███    ███ ███
+███    ███ ███   ███ ▀███████████ ███▌ ███       ███    ███ ███
+███    ███ ███   ███   ███    ███ ███  ███       ███    ███ ███
+███    ███ ███   ███   ███    ███ ███  ███▌    ▄ ███    ███ ███▌    ▄
+████████▀   ▀█   █▀    ███    █▀  █▀   █████▄▄██  ▀██████▀  █████▄▄██
+                                       ▀                    ▀
+        </pre>
+        <p>Bienvenido a unai.lol</p>
+        <p>Para ver los comandos disponibles, escribe <span class="code">help</span></p>
+    </div>
+    <div id="input-line">
+        <div id="prompt">admin@unai.lol:~$ </div>
+        <input id="input" type="text" autofocus>
+    </div>
+</div>
+<script type="module" src="src/index.js"></script>
+</body>
+</html>

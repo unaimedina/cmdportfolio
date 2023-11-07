@@ -1,0 +1,121 @@
+body {
+    background-color: #20232A;
+    color: #ABB2BF;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#terminal {
+    background-color: #282C34;
+    border-radius: 5px;
+    /* Add shadow */
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 800px;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Gradient animated box-shadow */
+@keyframes shadow {
+    from {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    to {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
+
+#header {
+    background-color: #1E2228;
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+#output {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#input-line {
+    background-color: #1E2228;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#prompt {
+    color: #98C379;
+    margin-right: 10px;
+}
+
+.prompt {
+    color: #98C379;
+}
+
+#input {
+    background: none;
+    border: none;
+    color: #ABB2BF;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+}
+
+.code {
+    color: #98C379;
+}
+
+a {
+    color: #61AFEF;
+    text-decoration: none;
+}
+
+#top-bar {
+    background-color: #1E2228;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+#circles {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#close-circle {
+    background-color: #E06C75;
+}
+
+#minimize-circle {
+    background-color: #E5C07B;
+}
+
+#maximize-circle {
+    background-color: #98C379;
+}
+
+#title {
+    color: #98C379;
+    font-size: 12px;
+}
+
